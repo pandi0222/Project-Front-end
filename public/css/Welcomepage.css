@@ -1,0 +1,47 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.welcome-section h1 {
+    color: black;
+    font-size: 25px;
+}
+.welcome-section p{
+    text-align: center;
+}
+.welcome-section button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    transition-duration: 0.5s;
+    color: white;
+    background-color: black;
+}
+
+.welcome-section button:hover {
+    box-shadow: 5px 5px 5px rgb(13, 212, 40);
+    color: rgb(13, 212, 40);
+    transform: rotateX(360deg);
+}
+
+.welcome-section button:active {
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.welcome-section a{
+    text-decoration: none;
+}
